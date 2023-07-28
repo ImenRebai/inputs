@@ -1,11 +1,12 @@
 
 import './App.css';
-import MyForms from './Componenets/MyForms';
+
+import Scoreboard from './Componenets/ScoreBoard';
 
 function App() {
   return (
     <div className="App" style = {{paddingTop: "300px" }}>
-     <MyForms />
+     <Scoreboard/>
     </div>
   );
 }
